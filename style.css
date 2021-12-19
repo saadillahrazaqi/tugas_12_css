@@ -1,0 +1,55 @@
+header, footer {
+  background-color: black;
+  height: 35px;
+}
+
+li, a {
+  display: block;
+  float: left;
+}
+
+ul {
+  padding-top: 5px;
+  padding-left: 15px;
+}
+
+a {
+  padding: 5px 20px 5px 5px;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+}
+
+footer {
+  color: white;
+  font-size: 12px;
+  text-align: center;
+}
+
+main {
+  background-image: linear-gradient(to bottom right, #A2C3F9, #C2E9FB);
+}
+
+.slider-img {
+  width: 98%;
+  display: block;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.image, .p-text {
+  padding: 18px;
+}
+
+.image {
+  width: 15%;
+  float: left;
+  padding-right: 5px;
+}
+
+.p-text {
+  column-count: 4;
+  column-rule: 1px solid black;
+  text-align: justify;
+  margin: 5px 5px 5px 5px;
+}
